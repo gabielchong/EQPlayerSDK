@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EQPlayerSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Introducing EQPlayerSDK for iOS, capable of DRM-protected playback.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'Presenting iOS EQPlayerSDK for seamless DRM-enabled playback, enhancing multimedia apps with secure content delivery and an exceptional user experience.'
                        DESC
 
-  s.homepage         = 'https://gitlab.com/gabielchong/playersdk'
+  s.homepage         = 'https://github.com/gabielchong/EQPlayerSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ee4e6114fe20b9a329aff2d7443f7c29ba196f5a' => 'gabielchong@gmail.com' }
-  s.source           = { :git => 'https://gitlab.com/gabielchong/playersdk.git', :tag => s.version.to_s }
+  s.author           = { 'gabielchong' => 'gabielchong@gmail.com' }
+  s.source           = { :git => 'https://github.com/gabielchong/EQPlayerSDK', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '5.0'
