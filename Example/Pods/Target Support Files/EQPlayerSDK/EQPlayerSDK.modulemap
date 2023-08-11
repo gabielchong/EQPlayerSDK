@@ -1,0 +1,6 @@
+framework module EQPlayerSDK {
+  umbrella header "EQPlayerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

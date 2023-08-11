@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6FB0A3AEC55562222DBE249776F2C2 /* Pods-EQPlayerSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E846642DCD7760E7A546F7C936CD1138 /* Pods-EQPlayerSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561BC388F4374A3546C68521298E66AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		59DBAC23ED7C777F37C06161A39EA4A9 /* Pods-EQPlayerSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1368D52275EB6FE38AF7E6623A30D0 /* Pods-EQPlayerSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9CAEFC6CFC0EEFAB1C1A5D30966F2C /* EQPlayerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE989B03B68017CCDEA023DF6FFBD95 /* EQPlayerSDK-dummy.m */; };
+		80902BB10DFE0F37B6A8FFC2D9478754 /* Pods-EQPlayerSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EE42EAE65E5F16D5719B45195EEE2 /* Pods-EQPlayerSDK_Example-dummy.m */; };
+		80D5B5B0A78BCB05EED01AB812817563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BBFB90958E2E25FB329CDED1E5D72ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0EF27002A85D65A00C007C4 /* EQPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF26FF2A85D65A00C007C4 /* EQPlayerView.swift */; };
+		CA865222721B0C10AEE3A7DADC09EBA0 /* EQPlayerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8114EDBEF2DB2EBF6CE737DA2F53518E /* EQPlayerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BE59977687658E7290931010BFE215 /* Pods-EQPlayerSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA10B4AEF632179572FE0256BFDF5E /* Pods-EQPlayerSDK_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D30964CD98DF2D1C77BF0C43D92CD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809FFFD7F23A01DDCF55F8DA27B0A85C;
+			remoteInfo = EQPlayerSDK;
+		};
+		E1C0966B94BCE5183E7D555C3C90441D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BFD5A253C9C5B4617038B2B4CD0831;
+			remoteInfo = "Pods-EQPlayerSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		158EF8EA5D30AAF5FB092C6EF4E0C568 /* Pods-EQPlayerSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EQPlayerSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		17EEACD321EE5B283C4924DA6E9FDC4A /* Pods-EQPlayerSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EQPlayerSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1936D681CA416EDAAB0D1AF06A733CC0 /* Pods-EQPlayerSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EQPlayerSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30AD3DBAF39B0CC4E1C304FC1DBA8E09 /* Pods-EQPlayerSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EQPlayerSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3CE989B03B68017CCDEA023DF6FFBD95 /* EQPlayerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EQPlayerSDK-dummy.m"; sourceTree = "<group>"; };
+		4199EA99506AF3C9093484F7895245F8 /* Pods-EQPlayerSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EQPlayerSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		44DD8406303FFAA1329124EBFC6F61E7 /* Pods-EQPlayerSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EQPlayerSDK_Example.modulemap"; sourceTree = "<group>"; };
+		4B420B5A532EB751BB2AA82DC21AE44E /* EQPlayerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EQPlayerSDK-Info.plist"; sourceTree = "<group>"; };
+		511EE42EAE65E5F16D5719B45195EEE2 /* Pods-EQPlayerSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EQPlayerSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		5159766D3877AED59BABC81307E92872 /* EQPlayerSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EQPlayerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D6EF26DB01ADFD9BCDF8761CDFCA97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A031952DB864A3D4A11FD051209CBB1 /* Pods-EQPlayerSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EQPlayerSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AA4A4F4C6AF44C8366EF4B5D5A7AC88 /* EQPlayerSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EQPlayerSDK.release.xcconfig; sourceTree = "<group>"; };
+		7E88AC11B4265878DFBDD46AD4D45DD1 /* Pods-EQPlayerSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EQPlayerSDK_Tests"; path = Pods_EQPlayerSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8114EDBEF2DB2EBF6CE737DA2F53518E /* EQPlayerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EQPlayerSDK-umbrella.h"; sourceTree = "<group>"; };
+		84AA10B4AEF632179572FE0256BFDF5E /* Pods-EQPlayerSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EQPlayerSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		939700A0B41ACB769093A520F5E55653 /* Pods-EQPlayerSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EQPlayerSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		9822306657BFFA2FFBC339B81290D424 /* Pods-EQPlayerSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EQPlayerSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8561B138827D710DF761977B11A13CC /* EQPlayerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EQPlayerSDK.modulemap; sourceTree = "<group>"; };
+		B70D49C3F9A8CF6816D8515C13AA2C22 /* Pods-EQPlayerSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EQPlayerSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9071704C2D699C39B56BADFD8ECA597 /* Pods-EQPlayerSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EQPlayerSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		C0EF26FF2A85D65A00C007C4 /* EQPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EQPlayerView.swift; path = EQPlayerSDK/Classes/EQPlayerView.swift; sourceTree = "<group>"; };
+		C654BB227CE1052003CFAB943B29CDB9 /* EQPlayerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EQPlayerSDK-prefix.pch"; sourceTree = "<group>"; };
+		C9CAF5F659621DBBC13D11D8E0652E0F /* EQPlayerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EQPlayerSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D7C5B397A005230241A79EA241E6A74D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEEEDEAB69F5158B7AE6E4D4AE481D69 /* Pods-EQPlayerSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EQPlayerSDK_Example"; path = Pods_EQPlayerSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7692C7BD3731254BCF61685D29BAE8 /* EQPlayerSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EQPlayerSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E846642DCD7760E7A546F7C936CD1138 /* Pods-EQPlayerSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EQPlayerSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE22FD93A3DB2FFC05D4B19671D66737 /* Pods-EQPlayerSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EQPlayerSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1368D52275EB6FE38AF7E6623A30D0 /* Pods-EQPlayerSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EQPlayerSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		FA5667DC19629B31B7B4A6D8099C2A3F /* Pods-EQPlayerSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EQPlayerSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448EAFE5F5BAF5A9D02511E4E3568A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D5B5B0A78BCB05EED01AB812817563 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D47499BF3918E69D5B310ACEE34FF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561BC388F4374A3546C68521298E66AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43CB57DEFE5BDDAA665351B11D1EDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFB90958E2E25FB329CDED1E5D72ED5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25478F116F4429BAABE7FCCAB180A96A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C55A80E08044C9BDEFB3BDF4B02E071 /* Pods-EQPlayerSDK_Example */,
+				F7934951F3360DBF8E807389265675B5 /* Pods-EQPlayerSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C55A80E08044C9BDEFB3BDF4B02E071 /* Pods-EQPlayerSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				44DD8406303FFAA1329124EBFC6F61E7 /* Pods-EQPlayerSDK_Example.modulemap */,
+				1936D681CA416EDAAB0D1AF06A733CC0 /* Pods-EQPlayerSDK_Example-acknowledgements.markdown */,
+				17EEACD321EE5B283C4924DA6E9FDC4A /* Pods-EQPlayerSDK_Example-acknowledgements.plist */,
+				511EE42EAE65E5F16D5719B45195EEE2 /* Pods-EQPlayerSDK_Example-dummy.m */,
+				30AD3DBAF39B0CC4E1C304FC1DBA8E09 /* Pods-EQPlayerSDK_Example-frameworks.sh */,
+				939700A0B41ACB769093A520F5E55653 /* Pods-EQPlayerSDK_Example-Info.plist */,
+				FA1368D52275EB6FE38AF7E6623A30D0 /* Pods-EQPlayerSDK_Example-umbrella.h */,
+				EE22FD93A3DB2FFC05D4B19671D66737 /* Pods-EQPlayerSDK_Example.debug.xcconfig */,
+				9822306657BFFA2FFBC339B81290D424 /* Pods-EQPlayerSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-EQPlayerSDK_Example";
+			path = "Target Support Files/Pods-EQPlayerSDK_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A5B1B1CB51C0135BFF07466FCA0F54A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF7692C7BD3731254BCF61685D29BAE8 /* EQPlayerSDK.podspec */,
+				D7C5B397A005230241A79EA241E6A74D /* LICENSE */,
+				58D6EF26DB01ADFD9BCDF8761CDFCA97 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B1BBAF1D56A3D2A4AFF921D769A6295 /* EQPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B1B1CB51C0135BFF07466FCA0F54A /* Pod */,
+				D99518B4EE4819BBD3BBAF44BC4F0F58 /* Support Files */,
+				C0EF26FF2A85D65A00C007C4 /* EQPlayerView.swift */,
+			);
+			name = EQPlayerSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BE340CDEF929D678142280BEC591A34A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5159766D3877AED59BABC81307E92872 /* EQPlayerSDK.framework */,
+				DEEEDEAB69F5158B7AE6E4D4AE481D69 /* Pods-EQPlayerSDK_Example */,
+				7E88AC11B4265878DFBDD46AD4D45DD1 /* Pods-EQPlayerSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BC5143294F487822E6F3BA7C6A2246 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B1BBAF1D56A3D2A4AFF921D769A6295 /* EQPlayerSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C2BC5143294F487822E6F3BA7C6A2246 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE340CDEF929D678142280BEC591A34A /* Products */,
+				25478F116F4429BAABE7FCCAB180A96A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99518B4EE4819BBD3BBAF44BC4F0F58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8561B138827D710DF761977B11A13CC /* EQPlayerSDK.modulemap */,
+				3CE989B03B68017CCDEA023DF6FFBD95 /* EQPlayerSDK-dummy.m */,
+				4B420B5A532EB751BB2AA82DC21AE44E /* EQPlayerSDK-Info.plist */,
+				C654BB227CE1052003CFAB943B29CDB9 /* EQPlayerSDK-prefix.pch */,
+				8114EDBEF2DB2EBF6CE737DA2F53518E /* EQPlayerSDK-umbrella.h */,
+				C9CAF5F659621DBBC13D11D8E0652E0F /* EQPlayerSDK.debug.xcconfig */,
+				7AA4A4F4C6AF44C8366EF4B5D5A7AC88 /* EQPlayerSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EQPlayerSDK";
+			sourceTree = "<group>";
+		};
+		F7934951F3360DBF8E807389265675B5 /* Pods-EQPlayerSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4199EA99506AF3C9093484F7895245F8 /* Pods-EQPlayerSDK_Tests.modulemap */,
+				7A031952DB864A3D4A11FD051209CBB1 /* Pods-EQPlayerSDK_Tests-acknowledgements.markdown */,
+				B70D49C3F9A8CF6816D8515C13AA2C22 /* Pods-EQPlayerSDK_Tests-acknowledgements.plist */,
+				84AA10B4AEF632179572FE0256BFDF5E /* Pods-EQPlayerSDK_Tests-dummy.m */,
+				B9071704C2D699C39B56BADFD8ECA597 /* Pods-EQPlayerSDK_Tests-Info.plist */,
+				E846642DCD7760E7A546F7C936CD1138 /* Pods-EQPlayerSDK_Tests-umbrella.h */,
+				FA5667DC19629B31B7B4A6D8099C2A3F /* Pods-EQPlayerSDK_Tests.debug.xcconfig */,
+				158EF8EA5D30AAF5FB092C6EF4E0C568 /* Pods-EQPlayerSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-EQPlayerSDK_Tests";
+			path = "Target Support Files/Pods-EQPlayerSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B2CD627F850242D289294339EA94153 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DBAC23ED7C777F37C06161A39EA4A9 /* Pods-EQPlayerSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E0AE4AC27C4B3A0AF1DFBB6172F9583 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6FB0A3AEC55562222DBE249776F2C2 /* Pods-EQPlayerSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B1E7826D6DF36824D818A5AA19C9A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA865222721B0C10AEE3A7DADC09EBA0 /* EQPlayerSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42BFD5A253C9C5B4617038B2B4CD0831 /* Pods-EQPlayerSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D81F6036E9A1FC951015D9B37B77A51 /* Build configuration list for PBXNativeTarget "Pods-EQPlayerSDK_Example" */;
+			buildPhases = (
+				0B2CD627F850242D289294339EA94153 /* Headers */,
+				4707F427E51DB89C81EF06857F6C60C0 /* Sources */,
+				448EAFE5F5BAF5A9D02511E4E3568A06 /* Frameworks */,
+				3DB28AD87445098E5085F52E0BA3727B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129AEAF3055D3AD5DCB93730FD7DEBA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-EQPlayerSDK_Example";
+			productName = Pods_EQPlayerSDK_Example;
+			productReference = DEEEDEAB69F5158B7AE6E4D4AE481D69 /* Pods-EQPlayerSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E7F872F38D4F051D90CD32D58DC137E /* Pods-EQPlayerSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B083E0540E0DE91B70A02ED834F99D /* Build configuration list for PBXNativeTarget "Pods-EQPlayerSDK_Tests" */;
+			buildPhases = (
+				0E0AE4AC27C4B3A0AF1DFBB6172F9583 /* Headers */,
+				9CC028DC38D81BA9F6BC2B7DE3FE2A30 /* Sources */,
+				4D47499BF3918E69D5B310ACEE34FF9D /* Frameworks */,
+				184DA285AD262F19607EFF1B28D55219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07DDFA76D11A95BE511DAE38CF1793F /* PBXTargetDependency */,
+			);
+			name = "Pods-EQPlayerSDK_Tests";
+			productName = Pods_EQPlayerSDK_Tests;
+			productReference = 7E88AC11B4265878DFBDD46AD4D45DD1 /* Pods-EQPlayerSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		809FFFD7F23A01DDCF55F8DA27B0A85C /* EQPlayerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F4BFB45975B4DA151483261C0B5154 /* Build configuration list for PBXNativeTarget "EQPlayerSDK" */;
+			buildPhases = (
+				31B1E7826D6DF36824D818A5AA19C9A0 /* Headers */,
+				DD5F798E1D04D9FE71DEFBA02BA42C31 /* Sources */,
+				B43CB57DEFE5BDDAA665351B11D1EDB0 /* Frameworks */,
+				FFC2F4B91ECD31C9D3A57C41202E4953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EQPlayerSDK;
+			productName = EQPlayerSDK;
+			productReference = 5159766D3877AED59BABC81307E92872 /* EQPlayerSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					809FFFD7F23A01DDCF55F8DA27B0A85C = {
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE340CDEF929D678142280BEC591A34A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809FFFD7F23A01DDCF55F8DA27B0A85C /* EQPlayerSDK */,
+				42BFD5A253C9C5B4617038B2B4CD0831 /* Pods-EQPlayerSDK_Example */,
+				4E7F872F38D4F051D90CD32D58DC137E /* Pods-EQPlayerSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184DA285AD262F19607EFF1B28D55219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB28AD87445098E5085F52E0BA3727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC2F4B91ECD31C9D3A57C41202E4953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4707F427E51DB89C81EF06857F6C60C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80902BB10DFE0F37B6A8FFC2D9478754 /* Pods-EQPlayerSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC028DC38D81BA9F6BC2B7DE3FE2A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BE59977687658E7290931010BFE215 /* Pods-EQPlayerSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5F798E1D04D9FE71DEFBA02BA42C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CAEFC6CFC0EEFAB1C1A5D30966F2C /* EQPlayerSDK-dummy.m in Sources */,
+				C0EF27002A85D65A00C007C4 /* EQPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		129AEAF3055D3AD5DCB93730FD7DEBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EQPlayerSDK;
+			target = 809FFFD7F23A01DDCF55F8DA27B0A85C /* EQPlayerSDK */;
+			targetProxy = 6D30964CD98DF2D1C77BF0C43D92CD4F /* PBXContainerItemProxy */;
+		};
+		B07DDFA76D11A95BE511DAE38CF1793F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EQPlayerSDK_Example";
+			target = 42BFD5A253C9C5B4617038B2B4CD0831 /* Pods-EQPlayerSDK_Example */;
+			targetProxy = E1C0966B94BCE5183E7D555C3C90441D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54B04006CA475A0C0FD348C21AE7BCE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE22FD93A3DB2FFC05D4B19671D66737 /* Pods-EQPlayerSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EQPlayerSDK_Example/Pods-EQPlayerSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EQPlayerSDK_Example/Pods-EQPlayerSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FA10FDDFB64592C0474E58253B52049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158EF8EA5D30AAF5FB092C6EF4E0C568 /* Pods-EQPlayerSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EQPlayerSDK_Tests/Pods-EQPlayerSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EQPlayerSDK_Tests/Pods-EQPlayerSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A27373458EEEE6563E3B0D410A7A5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9822306657BFFA2FFBC339B81290D424 /* Pods-EQPlayerSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EQPlayerSDK_Example/Pods-EQPlayerSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EQPlayerSDK_Example/Pods-EQPlayerSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C380A83FA2CE1D00FDEFE5CD5A13B560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5667DC19629B31B7B4A6D8099C2A3F /* Pods-EQPlayerSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EQPlayerSDK_Tests/Pods-EQPlayerSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EQPlayerSDK_Tests/Pods-EQPlayerSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCF4F7152F1EE986E2D0112342113317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA4A4F4C6AF44C8366EF4B5D5A7AC88 /* EQPlayerSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EQPlayerSDK/EQPlayerSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EQPlayerSDK/EQPlayerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EQPlayerSDK/EQPlayerSDK.modulemap";
+				PRODUCT_MODULE_NAME = EQPlayerSDK;
+				PRODUCT_NAME = EQPlayerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F71EC9DB1D9858897494CA43D72B266F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CAF5F659621DBBC13D11D8E0652E0F /* EQPlayerSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EQPlayerSDK/EQPlayerSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EQPlayerSDK/EQPlayerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EQPlayerSDK/EQPlayerSDK.modulemap";
+				PRODUCT_MODULE_NAME = EQPlayerSDK;
+				PRODUCT_NAME = EQPlayerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D81F6036E9A1FC951015D9B37B77A51 /* Build configuration list for PBXNativeTarget "Pods-EQPlayerSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B04006CA475A0C0FD348C21AE7BCE5 /* Debug */,
+				A27373458EEEE6563E3B0D410A7A5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B083E0540E0DE91B70A02ED834F99D /* Build configuration list for PBXNativeTarget "Pods-EQPlayerSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C380A83FA2CE1D00FDEFE5CD5A13B560 /* Debug */,
+				5FA10FDDFB64592C0474E58253B52049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F4BFB45975B4DA151483261C0B5154 /* Build configuration list for PBXNativeTarget "EQPlayerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71EC9DB1D9858897494CA43D72B266F /* Debug */,
+				CCF4F7152F1EE986E2D0112342113317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
