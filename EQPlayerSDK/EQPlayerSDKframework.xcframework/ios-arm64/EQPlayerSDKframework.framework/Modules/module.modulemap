@@ -1,0 +1,11 @@
+framework module EQPlayerSDKframework {
+  umbrella header "EQPlayerSDKframework.h"
+
+  export *
+  module * { export * }
+}
+
+module EQPlayerSDKframework.Swift {
+  header "EQPlayerSDKframework-Swift.h"
+  requires objc
+}

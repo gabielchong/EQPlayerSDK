@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EQPlayerSDK
+import EQPlayerSDKframework
 
 class ViewController: UIViewController {
 
@@ -15,8 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let playerView = EQPlayerView()
+        playerView.asd()
         let test = UIView(frame: CGRect(x: 50, y: 50, width: 200, height: 200))
-        test.addSubview(playerView)
+//        test.addSubview(playerView)
         view.backgroundColor = UIColor.blue
         view.addSubview(test)
     }

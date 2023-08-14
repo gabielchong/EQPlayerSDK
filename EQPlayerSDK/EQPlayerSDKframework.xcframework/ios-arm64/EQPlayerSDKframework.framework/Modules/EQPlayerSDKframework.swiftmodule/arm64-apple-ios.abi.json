@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDKframework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerView",
+        "printedName": "EQPlayerView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerView",
+                "printedName": "EQPlayerSDKframework.EQPlayerView",
+                "usr": "s:20EQPlayerSDKframework0A4ViewC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20EQPlayerSDKframework0A4ViewCACycfc",
+            "mangledName": "$s20EQPlayerSDKframework0A4ViewCACycfc",
+            "moduleName": "EQPlayerSDKframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "asd",
+            "printedName": "asd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20EQPlayerSDKframework0A4ViewC3asdyyF",
+            "mangledName": "$s20EQPlayerSDKframework0A4ViewC3asdyyF",
+            "moduleName": "EQPlayerSDKframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20EQPlayerSDKframework0A4ViewC",
+        "mangledName": "$s20EQPlayerSDKframework0A4ViewC",
+        "moduleName": "EQPlayerSDKframework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDKworkspace\/EQPlayerSDKframework\/EQPlayerSDKframework\/player\/EQPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
+      "length": 27,
+      "value": "\"this is EQPlayerView init\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDKworkspace\/EQPlayerSDKframework\/EQPlayerSDKframework\/player\/EQPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 29,
+      "value": "\"this is EQPlayerView asd123\""
+    }
+  ]
+}
