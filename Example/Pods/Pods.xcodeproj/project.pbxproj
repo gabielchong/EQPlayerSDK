@@ -14,7 +14,7 @@
 		80902BB10DFE0F37B6A8FFC2D9478754 /* Pods-EQPlayerSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 511EE42EAE65E5F16D5719B45195EEE2 /* Pods-EQPlayerSDK_Example-dummy.m */; };
 		80D5B5B0A78BCB05EED01AB812817563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BBFB90958E2E25FB329CDED1E5D72ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C02718892A8A0E4800650539 /* EQPlayerSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02718882A8A0E4800650539 /* EQPlayerSDK.xcframework */; };
+		C0DD9BD52A8A8BE200B20B3F /* EQPlayerSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DD9BD42A8A8BE200B20B3F /* EQPlayerSDK.xcframework */; };
 		CA865222721B0C10AEE3A7DADC09EBA0 /* EQPlayerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8114EDBEF2DB2EBF6CE737DA2F53518E /* EQPlayerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1BE59977687658E7290931010BFE215 /* Pods-EQPlayerSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA10B4AEF632179572FE0256BFDF5E /* Pods-EQPlayerSDK_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -60,7 +60,7 @@
 		A8561B138827D710DF761977B11A13CC /* EQPlayerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EQPlayerSDK.modulemap; sourceTree = "<group>"; };
 		B70D49C3F9A8CF6816D8515C13AA2C22 /* Pods-EQPlayerSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EQPlayerSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9071704C2D699C39B56BADFD8ECA597 /* Pods-EQPlayerSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EQPlayerSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		C02718882A8A0E4800650539 /* EQPlayerSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EQPlayerSDK.xcframework; sourceTree = "<group>"; };
+		C0DD9BD42A8A8BE200B20B3F /* EQPlayerSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EQPlayerSDK.xcframework; sourceTree = "<group>"; };
 		C654BB227CE1052003CFAB943B29CDB9 /* EQPlayerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EQPlayerSDK-prefix.pch"; sourceTree = "<group>"; };
 		C9CAF5F659621DBBC13D11D8E0652E0F /* EQPlayerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EQPlayerSDK.debug.xcconfig; sourceTree = "<group>"; };
 		D7C5B397A005230241A79EA241E6A74D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBFB90958E2E25FB329CDED1E5D72ED5 /* Foundation.framework in Frameworks */,
-				C02718892A8A0E4800650539 /* EQPlayerSDK.xcframework in Frameworks */,
+				C0DD9BD52A8A8BE200B20B3F /* EQPlayerSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +148,7 @@
 		7B1BBAF1D56A3D2A4AFF921D769A6295 /* EQPlayerSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C02718882A8A0E4800650539 /* EQPlayerSDK.xcframework */,
+				C0DD9BD42A8A8BE200B20B3F /* EQPlayerSDK.xcframework */,
 				7A5B1B1CB51C0135BFF07466FCA0F54A /* Pod */,
 				D99518B4EE4819BBD3BBAF44BC4F0F58 /* Support Files */,
 			);
