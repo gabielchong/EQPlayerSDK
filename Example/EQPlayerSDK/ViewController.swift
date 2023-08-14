@@ -15,8 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let playerView = EQPlayerView()
-        playerView.backgroundColor = UIColor.blue
-        view.addSubview(playerView)
+        playerView.asd()
     }
 
     override func didReceiveMemoryWarning() {

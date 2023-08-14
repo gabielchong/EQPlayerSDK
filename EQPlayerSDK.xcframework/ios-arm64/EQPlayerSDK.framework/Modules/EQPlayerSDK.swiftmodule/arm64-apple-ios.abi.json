@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerView",
+        "printedName": "EQPlayerView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerView",
+                "printedName": "EQPlayerSDK.EQPlayerView",
+                "usr": "s:11EQPlayerSDK0A4ViewC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EQPlayerSDK0A4ViewCACycfc",
+            "mangledName": "$s11EQPlayerSDK0A4ViewCACycfc",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "asd",
+            "printedName": "asd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A4ViewC3asdyyF",
+            "mangledName": "$s11EQPlayerSDK0A4ViewC3asdyyF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11EQPlayerSDK0A4ViewC",
+        "mangledName": "$s11EQPlayerSDK0A4ViewC",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/EQPlayerSDK\/player\/EQPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 27,
+      "value": "\"this is EQPlayerView init\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/EQPlayerSDK\/player\/EQPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 26,
+      "value": "\"this is EQPlayerView asd\""
+    }
+  ]
+}
