@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/EQPlayerSDK-Swift.h</key>
 		<data>
-		o2QZAkYqGlYMXmAzmkTxJUe92xs=
+		z+NgcUfQSWM1k1uu3FrSnUj4nQs=
 		</data>
 		<key>Headers/EQPlayerSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8fXsfSB5G7gMvtvpg40b4OhQAB4=
+		ewt26kTWMJlZWuuV3I16N92rlMw=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EHv4P8hhH3m9EjHcMmLjztrP5us=
+		kaoLiJtZe05Z112soC8Q8DY6GXc=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EHv4P8hhH3m9EjHcMmLjztrP5us=
+		kaoLiJtZe05Z112soC8Q8DY6GXc=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CIFqOx7aycMoVu2SwAcaGtCe3L4=
+		z3zIeZDFiHn6A2Jt85b9RrMBD60=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8fXsfSB5G7gMvtvpg40b4OhQAB4=
+		ewt26kTWMJlZWuuV3I16N92rlMw=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		D/GTpcFQ4Bu/aAQCSfnajhAvDjQ=
+		pmZQ2VA7poOWVBFBXx+9ou5DT+8=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		D/GTpcFQ4Bu/aAQCSfnajhAvDjQ=
+		pmZQ2VA7poOWVBFBXx+9ou5DT+8=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lMfjL56TXi/YnPJlKjcdb+dQNKc=
+		Briyo2pNRaqtIKjukaqNhk9f7kM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xeB/dPjbQn2AQsyyyaV637Qdc3bGll0JHxIWBRGi7cw=
+			F7oYl/NwucASkTAN76qnQtqD+6ohoYjCwTXI6dJC03I=
 			</data>
 		</dict>
 		<key>Headers/EQPlayerSDK.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cANyN5f5742VwGVZV8m1A7fXQNY8qGHCJEfkutdEowg=
+			Tb3ChCGXJyvvR/cs4J51FWKgkDv23y8sqHhenKUSmjU=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFqBsxFNMq8Wg6txhuJ4bcRk/6ORaUxa/sD6aUMhJSE=
+			3VhhJIJX12KBdb34pOInwlnGxYsrKqLxv37HRQ48h18=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KFqBsxFNMq8Wg6txhuJ4bcRk/6ORaUxa/sD6aUMhJSE=
+			3VhhJIJX12KBdb34pOInwlnGxYsrKqLxv37HRQ48h18=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			woTSeSKudt5Y4ILm/WKBCq7S1WhRJgk8KHJZ8aihl/w=
+			ubr3l+nZKyPTpneVglqhbWgNb9zwad/uNQT0SXmTULg=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cANyN5f5742VwGVZV8m1A7fXQNY8qGHCJEfkutdEowg=
+			Tb3ChCGXJyvvR/cs4J51FWKgkDv23y8sqHhenKUSmjU=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S5cTK4qXRmmFKsHTXYEPLHr5+nLvj4yH2/0tNEbUXSI=
+			xgAxxAr/HDPI6eG2+d8J0uJcQldAhNNRMJ8Fl01OWRI=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S5cTK4qXRmmFKsHTXYEPLHr5+nLvj4yH2/0tNEbUXSI=
+			xgAxxAr/HDPI6eG2+d8J0uJcQldAhNNRMJ8Fl01OWRI=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6VkUWXLaEiNVHoGNlqAmaIkZ6Wsa5SMlAhjh7tji80U=
+			IsuOwJ69P8GEpESlHYFakWYm27YgUUudYf+OWT5Y8DI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

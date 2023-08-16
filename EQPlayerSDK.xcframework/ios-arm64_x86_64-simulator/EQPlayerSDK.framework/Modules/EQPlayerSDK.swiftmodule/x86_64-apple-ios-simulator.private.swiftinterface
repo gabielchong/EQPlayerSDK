@@ -5,12 +5,51 @@
 import AVFoundation
 import AVKit
 @_exported import EQPlayerSDK
+import Foundation
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+public class EQPlayerItemBuilder {
+  public init()
+  public func file(_ url: Swift.String) -> Self
+  public func licenseURL(_ url: Swift.String) -> Self
+  public func certificateURL(_ url: Swift.String) -> Self
+  public func streamToken(_ token: Swift.String) -> Self
+  public func build() throws -> EQPlayerSDK.EQPlayerItem
+  @objc deinit
+}
+public struct EQPlayerItem {
+}
+public class EQPlayerConfigurationBuilder {
+  public init()
+  public func playlist(items: [EQPlayerSDK.EQPlayerItem]) -> Self
+  public func autostart(_ shouldAutostart: Swift.Bool) -> Self
+  public func build() -> EQPlayerSDK.EQPlayerConfiguration
+  @objc deinit
+}
+public struct EQPlayerConfiguration {
+}
+public class EQPlayer {
+  public init()
+  public func configurePlayer(with configuration: EQPlayerSDK.EQPlayerConfiguration)
+  public func play()
+  public func pause()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class EQPlayerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) final public let player: EQPlayerSDK.EQPlayer
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
+public enum EQPlayerError : Swift.Error {
+  case missingStreamURL
+  public static func == (a: EQPlayerSDK.EQPlayerError, b: EQPlayerSDK.EQPlayerError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension EQPlayerSDK.EQPlayerError : Swift.Equatable {}
+extension EQPlayerSDK.EQPlayerError : Swift.Hashable {}
