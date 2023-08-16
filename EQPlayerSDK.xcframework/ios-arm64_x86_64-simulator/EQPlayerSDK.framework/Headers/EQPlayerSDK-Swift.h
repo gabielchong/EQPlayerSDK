@@ -288,7 +288,7 @@ SWIFT_CLASS("_TtC11EQPlayerSDK12EQPlayerView")
 @interface EQPlayerView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (void)didMoveToSuperview;
+- (void)layoutSubviews;
 @end
 
 #endif
@@ -589,7 +589,7 @@ SWIFT_CLASS("_TtC11EQPlayerSDK12EQPlayerView")
 @interface EQPlayerView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (void)didMoveToSuperview;
+- (void)layoutSubviews;
 @end
 
 #endif

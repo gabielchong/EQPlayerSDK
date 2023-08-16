@@ -68,8 +68,8 @@
           },
           {
             "kind": "Function",
-            "name": "didMoveToSuperview",
-            "printedName": "didMoveToSuperview()",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -78,11 +78,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@EQPlayerSDK@objc(cs)EQPlayerView(im)didMoveToSuperview",
-            "mangledName": "$s11EQPlayerSDK0A4ViewC18didMoveToSuperviewyyF",
+            "usr": "c:@M@EQPlayerSDK@objc(cs)EQPlayerView(im)layoutSubviews",
+            "mangledName": "$s11EQPlayerSDK0A4ViewC14layoutSubviewsyyF",
             "moduleName": "EQPlayerSDK",
             "overriding": true,
-            "objc_name": "didMoveToSuperview",
+            "objc_name": "layoutSubviews",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -175,24 +175,10 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 728,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerView.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 445,
       "length": 91,
       "value": "\"https:\/\/test-videos.co.uk\/vids\/bigbuckbunny\/mp4\/h264\/1080\/Big_Buck_Bunny_1080_10s_1MB.mp4\""
-    },
-    {
-      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1557,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
