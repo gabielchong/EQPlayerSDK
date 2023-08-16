@@ -6,6 +6,429 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerItemBuilder",
+        "printedName": "EQPlayerItemBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerItemBuilder",
+                "printedName": "EQPlayerSDK.EQPlayerItemBuilder",
+                "usr": "s:11EQPlayerSDK0A11ItemBuilderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EQPlayerSDK0A11ItemBuilderCACycfc",
+            "mangledName": "$s11EQPlayerSDK0A11ItemBuilderCACycfc",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "file",
+            "printedName": "file(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A11ItemBuilderC4fileyACXDSSF",
+            "mangledName": "$s11EQPlayerSDK0A11ItemBuilderC4fileyACXDSSF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "licenseURL",
+            "printedName": "licenseURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A11ItemBuilderC10licenseURLyACXDSSF",
+            "mangledName": "$s11EQPlayerSDK0A11ItemBuilderC10licenseURLyACXDSSF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "certificateURL",
+            "printedName": "certificateURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A11ItemBuilderC14certificateURLyACXDSSF",
+            "mangledName": "$s11EQPlayerSDK0A11ItemBuilderC14certificateURLyACXDSSF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "streamToken",
+            "printedName": "streamToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A11ItemBuilderC11streamTokenyACXDSSF",
+            "mangledName": "$s11EQPlayerSDK0A11ItemBuilderC11streamTokenyACXDSSF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerItem",
+                "printedName": "EQPlayerSDK.EQPlayerItem",
+                "usr": "s:11EQPlayerSDK0A4ItemV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A11ItemBuilderC5buildAA0aC0VyKF",
+            "mangledName": "$s11EQPlayerSDK0A11ItemBuilderC5buildAA0aC0VyKF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11EQPlayerSDK0A11ItemBuilderC",
+        "mangledName": "$s11EQPlayerSDK0A11ItemBuilderC",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerItem",
+        "printedName": "EQPlayerItem",
+        "declKind": "Struct",
+        "usr": "s:11EQPlayerSDK0A4ItemV",
+        "mangledName": "$s11EQPlayerSDK0A4ItemV",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerConfigurationBuilder",
+        "printedName": "EQPlayerConfigurationBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerConfigurationBuilder",
+                "printedName": "EQPlayerSDK.EQPlayerConfigurationBuilder",
+                "usr": "s:11EQPlayerSDK0A20ConfigurationBuilderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EQPlayerSDK0A20ConfigurationBuilderCACycfc",
+            "mangledName": "$s11EQPlayerSDK0A20ConfigurationBuilderCACycfc",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "playlist",
+            "printedName": "playlist(items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[EQPlayerSDK.EQPlayerItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPlayerItem",
+                    "printedName": "EQPlayerSDK.EQPlayerItem",
+                    "usr": "s:11EQPlayerSDK0A4ItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A20ConfigurationBuilderC8playlist5itemsACXDSayAA0A4ItemVG_tF",
+            "mangledName": "$s11EQPlayerSDK0A20ConfigurationBuilderC8playlist5itemsACXDSayAA0A4ItemVG_tF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "autostart",
+            "printedName": "autostart(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A20ConfigurationBuilderC9autostartyACXDSbF",
+            "mangledName": "$s11EQPlayerSDK0A20ConfigurationBuilderC9autostartyACXDSbF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerConfiguration",
+                "printedName": "EQPlayerSDK.EQPlayerConfiguration",
+                "usr": "s:11EQPlayerSDK0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A20ConfigurationBuilderC5buildAA0aC0VyF",
+            "mangledName": "$s11EQPlayerSDK0A20ConfigurationBuilderC5buildAA0aC0VyF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11EQPlayerSDK0A20ConfigurationBuilderC",
+        "mangledName": "$s11EQPlayerSDK0A20ConfigurationBuilderC",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerConfiguration",
+        "printedName": "EQPlayerConfiguration",
+        "declKind": "Struct",
+        "usr": "s:11EQPlayerSDK0A13ConfigurationV",
+        "mangledName": "$s11EQPlayerSDK0A13ConfigurationV",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayer",
+        "printedName": "EQPlayer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayer",
+                "printedName": "EQPlayerSDK.EQPlayer",
+                "usr": "s:11EQPlayerSDK0A0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EQPlayerSDK0A0CACycfc",
+            "mangledName": "$s11EQPlayerSDK0A0CACycfc",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configurePlayer",
+            "printedName": "configurePlayer(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerConfiguration",
+                "printedName": "EQPlayerSDK.EQPlayerConfiguration",
+                "usr": "s:11EQPlayerSDK0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A0C15configurePlayer4withyAA0A13ConfigurationV_tF",
+            "mangledName": "$s11EQPlayerSDK0A0C15configurePlayer4withyAA0A13ConfigurationV_tF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "play",
+            "printedName": "play()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A0C4playyyF",
+            "mangledName": "$s11EQPlayerSDK0A0C4playyyF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A0C5pauseyyF",
+            "mangledName": "$s11EQPlayerSDK0A0C5pauseyyF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11EQPlayerSDK0A0C",
+        "mangledName": "$s11EQPlayerSDK0A0C",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -33,6 +456,55 @@
         "name": "EQPlayerView",
         "printedName": "EQPlayerView",
         "children": [
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayer",
+                "printedName": "EQPlayerSDK.EQPlayer",
+                "usr": "s:11EQPlayerSDK0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EQPlayerSDK0A4ViewC6playerAA0A0Cvp",
+            "mangledName": "$s11EQPlayerSDK0A4ViewC6playerAA0A0Cvp",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPlayer",
+                    "printedName": "EQPlayerSDK.EQPlayer",
+                    "usr": "s:11EQPlayerSDK0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EQPlayerSDK0A4ViewC6playerAA0A0Cvg",
+                "mangledName": "$s11EQPlayerSDK0A4ViewC6playerAA0A0Cvg",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -168,17 +640,230 @@
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerError",
+        "printedName": "EQPlayerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingStreamURL",
+            "printedName": "missingStreamURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPlayerError.Type) -> EQPlayerSDK.EQPlayerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPlayerError",
+                    "printedName": "EQPlayerSDK.EQPlayerError",
+                    "usr": "s:11EQPlayerSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPlayerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPlayerError",
+                        "printedName": "EQPlayerSDK.EQPlayerError",
+                        "usr": "s:11EQPlayerSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK0A5ErrorO16missingStreamURLyA2CmF",
+            "mangledName": "$s11EQPlayerSDK0A5ErrorO16missingStreamURLyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerError",
+                "printedName": "EQPlayerSDK.EQPlayerError",
+                "usr": "s:11EQPlayerSDK0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayerError",
+                "printedName": "EQPlayerSDK.EQPlayerError",
+                "usr": "s:11EQPlayerSDK0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11EQPlayerSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "EQPlayerSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EQPlayerSDK0A5ErrorO9hashValueSivp",
+            "mangledName": "$s11EQPlayerSDK0A5ErrorO9hashValueSivp",
+            "moduleName": "EQPlayerSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EQPlayerSDK0A5ErrorO9hashValueSivg",
+                "mangledName": "$s11EQPlayerSDK0A5ErrorO9hashValueSivg",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11EQPlayerSDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "EQPlayerSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11EQPlayerSDK0A5ErrorO",
+        "mangledName": "$s11EQPlayerSDK0A5ErrorO",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerView.swift",
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerConfiguration.swift",
+      "kind": "Array",
+      "offset": 192,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 445,
-      "length": 91,
-      "value": "\"https:\/\/test-videos.co.uk\/vids\/bigbuckbunny\/mp4\/h264\/1080\/Big_Buck_Bunny_1080_10s_1MB.mp4\""
+      "offset": 191,
+      "length": 17,
+      "value": "\"[EQPlayer] init\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 28,
+      "value": "\"[EQPlayer] configurePlayer\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 17,
+      "value": "\"[EQPlayer] play\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 18,
+      "value": "\"[EQPlayer] pause\""
     }
   ]
 }
