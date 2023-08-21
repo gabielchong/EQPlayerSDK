@@ -92,7 +92,7 @@ extension EQPlayerSDK.KeySessionManager {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class EQPlayerView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public let player: EQPlayerSDK.EQPlayer
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 public enum EQPlayerError : Swift.Error {
