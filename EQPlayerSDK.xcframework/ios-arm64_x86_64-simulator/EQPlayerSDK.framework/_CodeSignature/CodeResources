@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/EQPlayerSDK-Swift.h</key>
 		<data>
-		z+NgcUfQSWM1k1uu3FrSnUj4nQs=
+		niClXzQ0n5ateG4yRYR6mI7fEJ4=
 		</data>
 		<key>Headers/EQPlayerSDK.h</key>
 		<data>
@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ewt26kTWMJlZWuuV3I16N92rlMw=
+		sjmJMki6jer92MUhMFfagLz9wy8=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kaoLiJtZe05Z112soC8Q8DY6GXc=
+		wIQBXnexHcWoMHQWZkdRaP7PkMc=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vktITt4t70dfTTQBbZPcOf+1yTs=
+		QyJRW4wvB19SN3RiHLFdZ2hsE+0=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kaoLiJtZe05Z112soC8Q8DY6GXc=
+		wIQBXnexHcWoMHQWZkdRaP7PkMc=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z3zIeZDFiHn6A2Jt85b9RrMBD60=
+		5THywCJ7plnK3t0IrPrDt5V9wlg=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ewt26kTWMJlZWuuV3I16N92rlMw=
+		sjmJMki6jer92MUhMFfagLz9wy8=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pmZQ2VA7poOWVBFBXx+9ou5DT+8=
+		pf9+Rqx0ckPvv6wIVTGrYR1tnZU=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		A3+QJufYsiDMqyYvy7X0bAakRdk=
+		S6fGW+u/4BZmU45o3W+84L5MsmY=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pmZQ2VA7poOWVBFBXx+9ou5DT+8=
+		pf9+Rqx0ckPvv6wIVTGrYR1tnZU=
 		</data>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Briyo2pNRaqtIKjukaqNhk9f7kM=
+		PNASHoSchqv2bXNO04WYWyhS3fQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7oYl/NwucASkTAN76qnQtqD+6ohoYjCwTXI6dJC03I=
+			1OPqAFX7nykCaNBPUIVxwN55ipBY/+P1/0E/sOzbwLc=
 			</data>
 		</dict>
 		<key>Headers/EQPlayerSDK.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tb3ChCGXJyvvR/cs4J51FWKgkDv23y8sqHhenKUSmjU=
+			Q8FksExDOC+KPh5TA2S8lIlbokGaotYs6GZ01C6YLSI=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3VhhJIJX12KBdb34pOInwlnGxYsrKqLxv37HRQ48h18=
+			IA3rg/nZhxp8hbrtM9h0xewx+INH5/h2KOZMkle4Cp8=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XT5w7b/H6E3Nu4fZ4ckKJpp70nLF4siiIXm7bmip8Do=
+			H2ICIOXQM/XRBE62F01V8O/g9TUmxSSrdhkpNCl5LMA=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3VhhJIJX12KBdb34pOInwlnGxYsrKqLxv37HRQ48h18=
+			IA3rg/nZhxp8hbrtM9h0xewx+INH5/h2KOZMkle4Cp8=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ubr3l+nZKyPTpneVglqhbWgNb9zwad/uNQT0SXmTULg=
+			fX1isALeM+lpG+pr8Qcx/oO734+ZlGHlR0RXOiM6ttI=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tb3ChCGXJyvvR/cs4J51FWKgkDv23y8sqHhenKUSmjU=
+			Q8FksExDOC+KPh5TA2S8lIlbokGaotYs6GZ01C6YLSI=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xgAxxAr/HDPI6eG2+d8J0uJcQldAhNNRMJ8Fl01OWRI=
+			MnNZ8Fh5LiFpX9w1aVyrLylI7ryIoPgPFWPSlfNBKVU=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXxs1XlK8Wq6ZlnqZNarFOb/f9Z+OA3mWz6bOrWGXe8=
+			ZYLWeWWneWL0fkIN9x6Gh47qSZ6aL1GXL1Qq3LwnZ88=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xgAxxAr/HDPI6eG2+d8J0uJcQldAhNNRMJ8Fl01OWRI=
+			MnNZ8Fh5LiFpX9w1aVyrLylI7ryIoPgPFWPSlfNBKVU=
 			</data>
 		</dict>
 		<key>Modules/EQPlayerSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IsuOwJ69P8GEpESlHYFakWYm27YgUUudYf+OWT5Y8DI=
+			IZ4gabwx1vATvzhdjoFRv3jWm/yoMXMC98mprWI5GqM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

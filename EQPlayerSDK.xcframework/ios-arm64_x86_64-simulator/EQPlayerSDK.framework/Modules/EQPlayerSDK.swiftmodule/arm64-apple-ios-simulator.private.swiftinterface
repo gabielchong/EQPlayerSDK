@@ -10,6 +10,21 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+public enum EQPauseReason : Swift.Int {
+  case external
+  case interaction
+  case clickthrough
+  case viewable
+  case settingsInteraction
+  case relatedInteraction
+  case autostart
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public class EQPlayerItemBuilder {
   public init()
   public func file(_ url: Swift.String) -> Self
@@ -21,6 +36,9 @@ public class EQPlayerItemBuilder {
 }
 public struct EQPlayerItem {
 }
+extension Foundation.NSNotification.Name {
+  public static let LicenseDownloadEnded: Foundation.Notification.Name
+}
 public class EQPlayerConfigurationBuilder {
   public init()
   public func playlist(items: [EQPlayerSDK.EQPlayerItem]) -> Self
@@ -31,16 +49,49 @@ public class EQPlayerConfigurationBuilder {
 public struct EQPlayerConfiguration {
 }
 public class EQPlayer {
+  weak public var stateDelegate: (any EQPlayerSDK.EQPlayerStateDelegate)?
   public init()
   public func configurePlayer(with configuration: EQPlayerSDK.EQPlayerConfiguration)
   public func play()
   public func pause()
   @objc deinit
 }
+@objc public protocol LicenseDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func scheme() -> Swift.String?
+  @objc func contentIdentifier(url: Foundation.URL) -> Foundation.Data?
+  @objc func certificate() -> Foundation.Data?
+  @objc func ckcMessage(spc: Foundation.Data) -> Foundation.Data?
+  @objc func ckcMessageWithID(spc: Foundation.Data, assetID: Swift.String) -> Foundation.Data?
+}
+extension EQPlayerSDK.LicenseDelegate {
+  public func ckcMessageWithID(spc: Foundation.Data, assetID: Swift.String) -> Foundation.Data?
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class KeySessionManager : ObjectiveC.NSObject {
+  public enum LicenseError : Swift.Int {
+    case keyResponseWithExpiredLease
+    case keyResponseError
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public static let shared: EQPlayerSDK.KeySessionManager
+  @objc public func setLicenseDelegate(_ delegate: any EQPlayerSDK.LicenseDelegate)
+  @objc deinit
+}
+extension Foundation.NSNotification.Name {
+  public static let LicenseError: Foundation.Notification.Name
+}
+extension EQPlayerSDK.KeySessionManager {
+  public struct Keys {
+    public static let keyResponseWithExpiredLease: Swift.String
+    public static let keyResponseError: Swift.String
+  }
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class EQPlayerView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public let player: EQPlayerSDK.EQPlayer
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 public enum EQPlayerError : Swift.Error {
@@ -51,5 +102,15 @@ public enum EQPlayerError : Swift.Error {
     get
   }
 }
+public protocol EQPlayerStateDelegate : AnyObject {
+  func eqplayer(_ player: EQPlayerSDK.EQPlayer, didFinishLoadingWithTime loadTime: Foundation.TimeInterval)
+  func eqplayer(_ player: EQPlayerSDK.EQPlayer, didPauseWithReason reason: EQPlayerSDK.EQPauseReason)
+}
+extension EQPlayerSDK.EQPauseReason : Swift.Equatable {}
+extension EQPlayerSDK.EQPauseReason : Swift.Hashable {}
+extension EQPlayerSDK.EQPauseReason : Swift.RawRepresentable {}
+extension EQPlayerSDK.KeySessionManager.LicenseError : Swift.Equatable {}
+extension EQPlayerSDK.KeySessionManager.LicenseError : Swift.Hashable {}
+extension EQPlayerSDK.KeySessionManager.LicenseError : Swift.RawRepresentable {}
 extension EQPlayerSDK.EQPlayerError : Swift.Equatable {}
 extension EQPlayerSDK.EQPlayerError : Swift.Hashable {}

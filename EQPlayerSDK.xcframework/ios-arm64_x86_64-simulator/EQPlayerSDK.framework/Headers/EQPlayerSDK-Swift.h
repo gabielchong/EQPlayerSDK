@@ -261,6 +261,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -282,13 +283,82 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11EQPlayerSDK12EQPlayerView")
 @interface EQPlayerView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+@protocol LicenseDelegate;
+
+/// The <code>KeySessionManager</code> class manages an AVContentKeySession that consumes a `LicenseDelegate to get the SSP license and confguration information to play FPS encrypted content.
+SWIFT_CLASS("_TtC11EQPlayerSDK17KeySessionManager")
+@interface KeySessionManager : NSObject
+/// The shared <code>KeySessionManager</code> instance.
+/// if multiple key sessions are required, a single shared instance will not be suitable.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KeySessionManager * _Nonnull shared;)
++ (KeySessionManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Set the license delegate for <code>KeySessionManager</code> based on <code>LicenseDelegate</code>.
+/// note:
+/// The delegate is held using a zeroing-weak reference, so it has a value of nil after it has been deallocated outside. Ensure the delegate is retained until it is no longer needed by player.
+/// \param delegate An instance of <code>LicenseDelegate</code>.
+///
+- (void)setLicenseDelegate:(id <LicenseDelegate> _Nonnull)delegate;
+@end
+
+
+@class NSString;
+@class NSURL;
+@class NSData;
+
+/// Our <code>LicenseDelegate</code> protocol defines methods that allows your code to handle the FPS request while playing a <em>FairPlay</em> encrypted stream.
+SWIFT_PROTOCOL("_TtP11EQPlayerSDK15LicenseDelegate_")
+@protocol LicenseDelegate <NSObject>
+/// Returns the scheme that the integrator uses in the <code>EXT-X-KEY</code> URI.
+///
+/// returns:
+/// String: Of Scheme.
+- (NSString * _Nullable)scheme SWIFT_WARN_UNUSED_RESULT;
+/// Returns the content identifier that the integrator uses in the server side.
+/// \param url URL
+/// The URL is the <code>EXT-X-KEY</code> URI, which may contain the information about the content identifier.
+/// (The integrator decides what this parameter contains.)
+///
+///
+/// returns:
+/// Data contains the content identifier.
+- (NSData * _Nullable)contentIdentifierWithUrl:(NSURL * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
+/// Returns the certificate that integrator uses in the server side.
+///
+/// returns:
+/// Data contains the certificate.
+- (NSData * _Nullable)certificate SWIFT_WARN_UNUSED_RESULT;
+/// Returns the Content Key Context (CKC) message from the server side that is used to decrypt the FairPlay stream.
+/// remark:
+///
+/// This delegate function only supports one asset playout. Customers should implement the <code>ckcMessageWithID(spc:assetID:)</code> when playback multistream in concurrency.
+/// seealso:
+/// <code>ckcMessageWithID(spc:assetID:)</code>
+/// \param spc Data The Server Playback Context (SPC) is the payload produced from AVFoundation.
+///
+///
+/// returns:
+/// Data contains the Content Key Context (CKC) message.
+- (NSData * _Nullable)ckcMessageWithSpc:(NSData * _Nonnull)spc SWIFT_WARN_UNUSED_RESULT;
+/// Returns the Content Key Context (CKC) message from the server side that is used to decrypt the FairPlay stream.
+/// \param spc Data The Server Playback Context (SPC) is the payload produced from AVFoundation.
+///
+/// \param assetID contentID from HLS Playlist. Multi playback should depend on the value to request different license.
+///
+///
+/// returns:
+/// Data contains the Content Key Context (CKC) message.
+- (NSData * _Nullable)ckcMessageWithIDWithSpc:(NSData * _Nonnull)spc assetID:(NSString * _Nonnull)assetID SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif
@@ -562,6 +632,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -583,13 +654,82 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11EQPlayerSDK12EQPlayerView")
 @interface EQPlayerView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+@protocol LicenseDelegate;
+
+/// The <code>KeySessionManager</code> class manages an AVContentKeySession that consumes a `LicenseDelegate to get the SSP license and confguration information to play FPS encrypted content.
+SWIFT_CLASS("_TtC11EQPlayerSDK17KeySessionManager")
+@interface KeySessionManager : NSObject
+/// The shared <code>KeySessionManager</code> instance.
+/// if multiple key sessions are required, a single shared instance will not be suitable.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) KeySessionManager * _Nonnull shared;)
++ (KeySessionManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Set the license delegate for <code>KeySessionManager</code> based on <code>LicenseDelegate</code>.
+/// note:
+/// The delegate is held using a zeroing-weak reference, so it has a value of nil after it has been deallocated outside. Ensure the delegate is retained until it is no longer needed by player.
+/// \param delegate An instance of <code>LicenseDelegate</code>.
+///
+- (void)setLicenseDelegate:(id <LicenseDelegate> _Nonnull)delegate;
+@end
+
+
+@class NSString;
+@class NSURL;
+@class NSData;
+
+/// Our <code>LicenseDelegate</code> protocol defines methods that allows your code to handle the FPS request while playing a <em>FairPlay</em> encrypted stream.
+SWIFT_PROTOCOL("_TtP11EQPlayerSDK15LicenseDelegate_")
+@protocol LicenseDelegate <NSObject>
+/// Returns the scheme that the integrator uses in the <code>EXT-X-KEY</code> URI.
+///
+/// returns:
+/// String: Of Scheme.
+- (NSString * _Nullable)scheme SWIFT_WARN_UNUSED_RESULT;
+/// Returns the content identifier that the integrator uses in the server side.
+/// \param url URL
+/// The URL is the <code>EXT-X-KEY</code> URI, which may contain the information about the content identifier.
+/// (The integrator decides what this parameter contains.)
+///
+///
+/// returns:
+/// Data contains the content identifier.
+- (NSData * _Nullable)contentIdentifierWithUrl:(NSURL * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
+/// Returns the certificate that integrator uses in the server side.
+///
+/// returns:
+/// Data contains the certificate.
+- (NSData * _Nullable)certificate SWIFT_WARN_UNUSED_RESULT;
+/// Returns the Content Key Context (CKC) message from the server side that is used to decrypt the FairPlay stream.
+/// remark:
+///
+/// This delegate function only supports one asset playout. Customers should implement the <code>ckcMessageWithID(spc:assetID:)</code> when playback multistream in concurrency.
+/// seealso:
+/// <code>ckcMessageWithID(spc:assetID:)</code>
+/// \param spc Data The Server Playback Context (SPC) is the payload produced from AVFoundation.
+///
+///
+/// returns:
+/// Data contains the Content Key Context (CKC) message.
+- (NSData * _Nullable)ckcMessageWithSpc:(NSData * _Nonnull)spc SWIFT_WARN_UNUSED_RESULT;
+/// Returns the Content Key Context (CKC) message from the server side that is used to decrypt the FairPlay stream.
+/// \param spc Data The Server Playback Context (SPC) is the payload produced from AVFoundation.
+///
+/// \param assetID contentID from HLS Playlist. Multi playback should depend on the value to request different license.
+///
+///
+/// returns:
+/// Data contains the Content Key Context (CKC) message.
+- (NSData * _Nullable)ckcMessageWithIDWithSpc:(NSData * _Nonnull)spc assetID:(NSString * _Nonnull)assetID SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif

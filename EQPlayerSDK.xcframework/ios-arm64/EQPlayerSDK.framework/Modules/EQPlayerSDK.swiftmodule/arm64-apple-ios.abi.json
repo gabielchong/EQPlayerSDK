@@ -5,6 +5,455 @@
     "printedName": "TopLevel",
     "children": [
       {
+        "kind": "TypeDecl",
+        "name": "EQPauseReason",
+        "printedName": "EQPauseReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "external",
+            "printedName": "external",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO8externalyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO8externalyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "interaction",
+            "printedName": "interaction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO11interactionyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO11interactionyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "clickthrough",
+            "printedName": "clickthrough",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO12clickthroughyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO12clickthroughyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "viewable",
+            "printedName": "viewable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO8viewableyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO8viewableyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "settingsInteraction",
+            "printedName": "settingsInteraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO19settingsInteractionyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO19settingsInteractionyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "relatedInteraction",
+            "printedName": "relatedInteraction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO18relatedInteractionyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO18relatedInteractionyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "autostart",
+            "printedName": "autostart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO9autostartyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO9autostartyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EQPlayerSDK.EQPauseReason.Type) -> EQPlayerSDK.EQPauseReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EQPlayerSDK.EQPauseReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPauseReason",
+                        "printedName": "EQPlayerSDK.EQPauseReason",
+                        "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO7unknownyA2CmF",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO7unknownyA2CmF",
+            "moduleName": "EQPlayerSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EQPlayerSDK.EQPauseReason?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EQPauseReason",
+                    "printedName": "EQPlayerSDK.EQPauseReason",
+                    "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO8rawValueACSgSi_tcfc",
+            "moduleName": "EQPlayerSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EQPlayerSDK13EQPauseReasonO8rawValueSivp",
+            "mangledName": "$s11EQPlayerSDK13EQPauseReasonO8rawValueSivp",
+            "moduleName": "EQPlayerSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EQPlayerSDK13EQPauseReasonO8rawValueSivg",
+                "mangledName": "$s11EQPlayerSDK13EQPauseReasonO8rawValueSivg",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11EQPlayerSDK13EQPauseReasonO",
+        "mangledName": "$s11EQPlayerSDK13EQPauseReasonO",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -188,6 +637,47 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "EQPlayerConfigurationBuilder",
         "printedName": "EQPlayerConfigurationBuilder",
@@ -332,6 +822,109 @@
         "printedName": "EQPlayer",
         "children": [
           {
+            "kind": "Var",
+            "name": "stateDelegate",
+            "printedName": "stateDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "EQPlayerSDK.EQPlayerStateDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvp",
+            "mangledName": "$s11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvp",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EQPlayerSDK.EQPlayerStateDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPlayerStateDelegate",
+                        "printedName": "EQPlayerSDK.EQPlayerStateDelegate",
+                        "usr": "s:11EQPlayerSDK0A13StateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvg",
+                "mangledName": "$s11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvg",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EQPlayerSDK.EQPlayerStateDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EQPlayerStateDelegate",
+                        "printedName": "EQPlayerSDK.EQPlayerStateDelegate",
+                        "usr": "s:11EQPlayerSDK0A13StateDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvs",
+                "mangledName": "$s11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvs",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvM",
+                "mangledName": "$s11EQPlayerSDK0A0C13stateDelegateAA0a5StateD0_pSgvM",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -425,6 +1018,762 @@
         "moduleName": "EQPlayerSDK",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LicenseDelegate",
+        "printedName": "LicenseDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "scheme",
+            "printedName": "scheme()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate(im)scheme",
+            "mangledName": "$s11EQPlayerSDK15LicenseDelegateP6schemeSSSgyF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.LicenseDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.LicenseDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentIdentifier",
+            "printedName": "contentIdentifier(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate(im)contentIdentifierWithUrl:",
+            "mangledName": "$s11EQPlayerSDK15LicenseDelegateP17contentIdentifier3url10Foundation4DataVSgAF3URLV_tF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.LicenseDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.LicenseDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "certificate",
+            "printedName": "certificate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate(im)certificate",
+            "mangledName": "$s11EQPlayerSDK15LicenseDelegateP11certificate10Foundation4DataVSgyF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.LicenseDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.LicenseDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ckcMessage",
+            "printedName": "ckcMessage(spc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate(im)ckcMessageWithSpc:",
+            "mangledName": "$s11EQPlayerSDK15LicenseDelegateP10ckcMessage3spc10Foundation4DataVSgAH_tF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.LicenseDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.LicenseDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ckcMessageWithID",
+            "printedName": "ckcMessageWithID(spc:assetID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate(im)ckcMessageWithIDWithSpc:assetID:",
+            "mangledName": "$s11EQPlayerSDK15LicenseDelegateP16ckcMessageWithID3spc05assetH010Foundation4DataVSgAI_SStF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.LicenseDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.LicenseDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ckcMessageWithID",
+            "printedName": "ckcMessageWithID(spc:assetID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK15LicenseDelegatePAAE16ckcMessageWithID3spc05assetH010Foundation4DataVSgAI_SStF",
+            "mangledName": "$s11EQPlayerSDK15LicenseDelegatePAAE16ckcMessageWithID3spc05assetH010Foundation4DataVSgAI_SStF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.LicenseDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.LicenseDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate",
+        "mangledName": "$s11EQPlayerSDK15LicenseDelegateP",
+        "moduleName": "EQPlayerSDK",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeySessionManager",
+        "printedName": "KeySessionManager",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LicenseError",
+            "printedName": "LicenseError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "keyResponseWithExpiredLease",
+                "printedName": "keyResponseWithExpiredLease",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EQPlayerSDK.KeySessionManager.LicenseError.Type) -> EQPlayerSDK.KeySessionManager.LicenseError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LicenseError",
+                        "printedName": "EQPlayerSDK.KeySessionManager.LicenseError",
+                        "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EQPlayerSDK.KeySessionManager.LicenseError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LicenseError",
+                            "printedName": "EQPlayerSDK.KeySessionManager.LicenseError",
+                            "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO27keyResponseWithExpiredLeaseyA2EmF",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC12LicenseErrorO27keyResponseWithExpiredLeaseyA2EmF",
+                "moduleName": "EQPlayerSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "keyResponseError",
+                "printedName": "keyResponseError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EQPlayerSDK.KeySessionManager.LicenseError.Type) -> EQPlayerSDK.KeySessionManager.LicenseError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LicenseError",
+                        "printedName": "EQPlayerSDK.KeySessionManager.LicenseError",
+                        "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EQPlayerSDK.KeySessionManager.LicenseError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LicenseError",
+                            "printedName": "EQPlayerSDK.KeySessionManager.LicenseError",
+                            "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO011keyResponseG0yA2EmF",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC12LicenseErrorO011keyResponseG0yA2EmF",
+                "moduleName": "EQPlayerSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EQPlayerSDK.KeySessionManager.LicenseError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LicenseError",
+                        "printedName": "EQPlayerSDK.KeySessionManager.LicenseError",
+                        "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO8rawValueAESgSi_tcfc",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC12LicenseErrorO8rawValueAESgSi_tcfc",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO8rawValueSivp",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC12LicenseErrorO8rawValueSivp",
+                "moduleName": "EQPlayerSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO8rawValueSivg",
+                    "mangledName": "$s11EQPlayerSDK17KeySessionManagerC12LicenseErrorO8rawValueSivg",
+                    "moduleName": "EQPlayerSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11EQPlayerSDK17KeySessionManagerC12LicenseErrorO",
+            "mangledName": "$s11EQPlayerSDK17KeySessionManagerC12LicenseErrorO",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeySessionManager",
+                "printedName": "EQPlayerSDK.KeySessionManager",
+                "usr": "c:@M@EQPlayerSDK@objc(cs)KeySessionManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@EQPlayerSDK@objc(cs)KeySessionManager(cpy)shared",
+            "mangledName": "$s11EQPlayerSDK17KeySessionManagerC6sharedACvpZ",
+            "moduleName": "EQPlayerSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeySessionManager",
+                    "printedName": "EQPlayerSDK.KeySessionManager",
+                    "usr": "c:@M@EQPlayerSDK@objc(cs)KeySessionManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@EQPlayerSDK@objc(cs)KeySessionManager(cm)shared",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC6sharedACvgZ",
+                "moduleName": "EQPlayerSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setLicenseDelegate",
+            "printedName": "setLicenseDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LicenseDelegate",
+                "printedName": "EQPlayerSDK.LicenseDelegate",
+                "usr": "c:@M@EQPlayerSDK@objc(pl)LicenseDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EQPlayerSDK@objc(cs)KeySessionManager(im)setLicenseDelegate:",
+            "mangledName": "$s11EQPlayerSDK17KeySessionManagerC18setLicenseDelegateyyAA0gH0_pF",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Keys",
+            "printedName": "Keys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "keyResponseWithExpiredLease",
+                "printedName": "keyResponseWithExpiredLease",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11EQPlayerSDK17KeySessionManagerC4KeysV27keyResponseWithExpiredLeaseSSvpZ",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC4KeysV27keyResponseWithExpiredLeaseSSvpZ",
+                "moduleName": "EQPlayerSDK",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11EQPlayerSDK17KeySessionManagerC4KeysV27keyResponseWithExpiredLeaseSSvgZ",
+                    "mangledName": "$s11EQPlayerSDK17KeySessionManagerC4KeysV27keyResponseWithExpiredLeaseSSvgZ",
+                    "moduleName": "EQPlayerSDK",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "keyResponseError",
+                "printedName": "keyResponseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11EQPlayerSDK17KeySessionManagerC4KeysV16keyResponseErrorSSvpZ",
+                "mangledName": "$s11EQPlayerSDK17KeySessionManagerC4KeysV16keyResponseErrorSSvpZ",
+                "moduleName": "EQPlayerSDK",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11EQPlayerSDK17KeySessionManagerC4KeysV16keyResponseErrorSSvgZ",
+                    "mangledName": "$s11EQPlayerSDK17KeySessionManagerC4KeysV16keyResponseErrorSSvgZ",
+                    "moduleName": "EQPlayerSDK",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:11EQPlayerSDK17KeySessionManagerC4KeysV",
+            "mangledName": "$s11EQPlayerSDK17KeySessionManagerC4KeysV",
+            "moduleName": "EQPlayerSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EQPlayerSDK@objc(cs)KeySessionManager",
+        "mangledName": "$s11EQPlayerSDK17KeySessionManagerC",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -537,32 +1886,6 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "layoutSubviews",
-            "printedName": "layoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@EQPlayerSDK@objc(cs)EQPlayerView(im)layoutSubviews",
-            "mangledName": "$s11EQPlayerSDK0A4ViewC14layoutSubviewsyyF",
-            "moduleName": "EQPlayerSDK",
-            "overriding": true,
-            "objc_name": "layoutSubviews",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -639,6 +1962,43 @@
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -818,11 +2178,892 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EQPlayerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EQPlayerStateDelegate",
+        "printedName": "EQPlayerStateDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "eqplayer",
+            "printedName": "eqplayer(_:didFinishLoadingWithTime:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayer",
+                "printedName": "EQPlayerSDK.EQPlayer",
+                "usr": "s:11EQPlayerSDK0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A13StateDelegateP8eqplayer_24didFinishLoadingWithTimeyAA0A0C_SdtF",
+            "mangledName": "$s11EQPlayerSDK0A13StateDelegateP8eqplayer_24didFinishLoadingWithTimeyAA0A0C_SdtF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.EQPlayerStateDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.EQPlayerStateDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "eqplayer",
+            "printedName": "eqplayer(_:didPauseWithReason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EQPlayer",
+                "printedName": "EQPlayerSDK.EQPlayer",
+                "usr": "s:11EQPlayerSDK0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EQPauseReason",
+                "printedName": "EQPlayerSDK.EQPauseReason",
+                "usr": "s:11EQPlayerSDK13EQPauseReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EQPlayerSDK0A13StateDelegateP8eqplayer_18didPauseWithReasonyAA0A0C_AA07EQPauseI0OtF",
+            "mangledName": "$s11EQPlayerSDK0A13StateDelegateP8eqplayer_18didPauseWithReasonyAA0A0C_AA07EQPauseI0OtF",
+            "moduleName": "EQPlayerSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : EQPlayerSDK.EQPlayerStateDelegate>",
+            "sugared_genericSig": "<Self where Self : EQPlayerSDK.EQPlayerStateDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11EQPlayerSDK0A13StateDelegateP",
+        "mangledName": "$s11EQPlayerSDK0A13StateDelegateP",
+        "moduleName": "EQPlayerSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LicenseDownloadEnded",
+            "printedName": "LicenseDownloadEnded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea11EQPlayerSDKE20LicenseDownloadEndedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea11EQPlayerSDKE20LicenseDownloadEndedABvpZ",
+            "moduleName": "EQPlayerSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea11EQPlayerSDKE20LicenseDownloadEndedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea11EQPlayerSDKE20LicenseDownloadEndedABvgZ",
+                "moduleName": "EQPlayerSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LicenseError",
+            "printedName": "LicenseError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea11EQPlayerSDKE12LicenseErrorABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea11EQPlayerSDKE12LicenseErrorABvpZ",
+            "moduleName": "EQPlayerSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea11EQPlayerSDKE12LicenseErrorABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea11EQPlayerSDKE12LicenseErrorABvgZ",
+                "moduleName": "EQPlayerSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 19,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 18,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 9,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 19,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 18,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 9,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 12,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 19,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 18,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 9,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "Array",
+      "offset": 1125,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 32,
+      "value": "\"License server request success\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
+      "length": 12,
+      "value": "\"CkcMessage\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 68,
+      "value": "\"License server request error: \""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1338,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1510,
+      "length": 19,
+      "value": "\"nv-authorizations\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1730,
+      "length": 42,
+      "value": "\"Posting license server request to server\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1883,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 33,
+      "value": "\"[postSynchronousLicenseRequest]\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2204,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/StreamLicenceAuthenticator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2558,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 11,
+      "value": "\"ContentId\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 7,
+      "value": "\"KeyId\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 4,
+      "value": "\"IV\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "Array",
+      "offset": 560,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 11,
+      "value": "\"ContentId\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 786,
+      "length": 7,
+      "value": "\"KeyId\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 4,
+      "value": "\"IV\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentIdentifierGenerator.swift",
+      "kind": "Array",
+      "offset": 1277,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1857,
+      "length": 45,
+      "value": "\"Cannot find key identifier from key request\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 2077,
+      "length": 31,
+      "value": "\"Handle the persistece license\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 30,
+      "value": "\"Handle the streaming license\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 2776,
+      "length": 45,
+      "value": "\"Cannot find key identifier from key request\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3863,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4176,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4193,
+      "length": 44,
+      "value": "\"Content Key Request retry reason: timedOut\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4497,
+      "length": 68,
+      "value": "\"Content Key Request retry reason: receivedResponseWithExpiredLease\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4858,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5107,
+      "length": 62,
+      "value": "\"Content Key Request retry reason: receivedObsoleteContentKey\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5487,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5498,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5505,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5850,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5861,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7031,
+      "length": 52,
+      "value": "\"Failed to retrieve the assetID from the keyRequest\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "Array",
+      "offset": 7379,
+      "length": 3,
+      "value": "[1]"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7501,
+      "length": 32,
+      "value": "\"Key Response error is \""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7532,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9123,
+      "length": 45,
+      "value": "\"persistable key request with error \""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9167,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9544,
+      "length": 31,
+      "value": "\"Key Request error is \""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9574,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9713,
+      "length": 12,
+      "value": "\"SPC is nil\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10364,
+      "length": 32,
+      "value": "\"Key Response error is \""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10395,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10901,
+      "length": 5,
+      "value": "\"12.\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 11512,
+      "length": 20,
+      "value": "\"ContentKeyDelegate\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11540,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 11835,
+      "length": 52,
+      "value": "\"Failed to retrieve the assetID from the keyRequest\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11926,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 12167,
+      "length": 53,
+      "value": "\"Failed to retrieve the assetID from the identifier!\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 12466,
+      "length": 53,
+      "value": "\"Failed to retrieve the assetID from the identifier!\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 12840,
+      "length": 58,
+      "value": "\"Failed to retrieve the assetID from the license delegate\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/ContentKeyDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13144,
+      "length": 58,
+      "value": "\"Failed to retrieve the assetID from the license delegate\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/AVContentKeySessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 41,
+      "value": "\"com.opy.sdk.AVContentKeySessionQueueFPS\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/AVContentKeySessionExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 22,
+      "value": "\"LicenseDownloadEnded\""
+    },
     {
       "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerConfiguration.swift",
       "kind": "Array",
@@ -840,30 +3081,191 @@
     {
       "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 191,
+      "offset": 620,
       "length": 17,
       "value": "\"[EQPlayer] init\""
     },
     {
       "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 352,
-      "length": 28,
-      "value": "\"[EQPlayer] configurePlayer\""
+      "kind": "BooleanLiteral",
+      "offset": 1987,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 2349,
       "length": 17,
       "value": "\"[EQPlayer] play\""
     },
     {
       "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 2443,
       "length": 18,
       "value": "\"[EQPlayer] pause\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/SSPFairplayLicenseDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 5,
+      "value": "\"skd\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/SSPFairplayLicenseDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1921,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/KeySessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/KeySessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/KeySessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/KeySessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 14,
+      "value": "\"LicenseError\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/KeySessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 29,
+      "value": "\"keyResponseWithExpiredLease\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/KeySessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2523,
+      "length": 18,
+      "value": "\"keyResponseError\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 19,
+      "value": "\"init EQPlayerView\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 46,
+      "value": "\"Downloading FairPlay Application Certificate\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 28,
+      "value": "\"Passed in URL is incorrect\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 21,
+      "value": "\"Download successful\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 64,
+      "value": "\"Failed to download FairPlay Application Certificate, error was\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 53,
+      "value": "\"Failed to download FairPlay Application Certificate\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/FairPlayApplicationCertificateDownloader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1491,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/player\/EQPlayerObserver.swift",
+      "kind": "FloatLiteral",
+      "offset": 716,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/PlayerCertificateAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 58,
+      "value": "\"Successfully downloaded FairPlay Application Certificate\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/PlayerCertificateAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 15,
+      "value": "\"Unknown error\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/PlayerCertificateAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/gabriel\/Documents\/code\/own\/player\/EQPlayerSDK-framework\/EQPlayerSDK\/nagraDRM\/PlayerCertificateAuthenticator.swift",
+      "kind": "StringLiteral",
+      "offset": 952,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }
