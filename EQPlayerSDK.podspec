@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EQPlayerSDK'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'Introducing EQPlayerSDK for iOS, capable of DRM-protected playback.'
 
 # This description is used to generate tags and improve search results.
